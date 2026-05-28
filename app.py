@@ -49,7 +49,7 @@ TOKEN_REFRESH_INTERVAL_HOURS = 2
 MAX_WORKERS = 10
 
 # Global flag to track scheduler
-scheduler_started = False
+scheduler_started = True
 
 # ================= JWT UTILITIES =================
 
