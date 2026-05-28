@@ -46,10 +46,10 @@ TOKEN_FILE_BD = os.path.join(STORAGE_PATH, "token_bd.json")
 AES_KEY = b'Yg&tc%DEuh6%Zc^8'
 AES_IV = b'6oyZDr22E3ychjM%'
 TOKEN_REFRESH_INTERVAL_HOURS = 2
-MAX_WORKERS = 10
+MAX_WORKERS = 50
 
 # Global flag to track scheduler
-scheduler_started = True
+scheduler_started = False
 
 # ================= JWT UTILITIES =================
 
